@@ -14,7 +14,6 @@ const itemsController = require('./controllers/itemsController')
 const monstersController = require('./controllers/monstersController')
 const racesController = require('./controllers/racesController')
 const spellsController = require('./controllers/spellsController')
-const subclassesController = require('./controllers/subclassesController')
 const weaponsController = require('./controllers/weaponsController')
 
 app.use(express.json());
@@ -28,7 +27,6 @@ app.use('/items', itemsController)
 app.use('/monsters', monstersController)
 app.use('/races', racesController)
 app.use('/spells', spellsController)
-app.use('/subclasses', subclassesController)
 app.use('/weapons', weaponsController)
 
 
