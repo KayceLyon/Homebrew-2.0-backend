@@ -40,7 +40,7 @@ app.listen(PORT, ()=>{
     console.log('Listening')
 })
 
-mongoose.connect('mongodb+srv://klyon:JqIO7Olb8If4S0kg@homebrew.hethkpl.mongodb.net/?retryWrites=true&w=majority', () => {
+mongoose.connect('mongodb+srv://klyon:EwXwKzev8865ZWRx@hombrew2.walojcm.mongodb.net/?retryWrites=true&w=majority', () => {
     console.log('Linked')
 })
 
