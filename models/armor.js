@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const armorSchema = new Schema ({
     name: {type: String, required: true},
-    type: {type: String, required: true},
+    type: {type: String},
     weight: {type: Number},
     cost: {type: Number},
     currency: {type:String},
